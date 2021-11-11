@@ -115,7 +115,7 @@ let
     MENU COLOR UNSEL        37;44      #FF000000    #00000000   none
     MENU COLOR SEL          7;37;40    #FFFFFFFF    #FF5277C3   std
 
-    DEFAULT boot
+    DEFAULT boot-copytoram
 
     LABEL boot
     MENU LABEL NixOS ${config.system.nixos.label}${config.isoImage.appendToMenuLabel}
